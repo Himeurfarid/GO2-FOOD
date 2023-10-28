@@ -519,8 +519,26 @@ body.active { overflow: hidden; }
 }
 
 .food-menu-card {
+  
   background-color: var(--white);
-  padding: 40px;
+  
+  box-shadow: var(--shadow-2);
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: var(--white);
+  
+  box-shadow: var(--shadow-2);
+}
+
+.card:hover {
+  width: 550px;
+  height: auto;
+  background-color: var(--white);
+  padding: 20px;
   box-shadow: var(--shadow-2);
 }
 
@@ -528,7 +546,6 @@ body.active { overflow: hidden; }
 
 .food-menu-card .card-banner {
   position: relative;
-  padding-block-start: 30px;
   max-width: max-content;
   aspect-ratio: 1 / 1;
   margin-inline: auto;
@@ -565,7 +582,7 @@ body.active { overflow: hidden; }
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-block: 20px 10px;
+  
 }
 
 .food-menu-card .category {
